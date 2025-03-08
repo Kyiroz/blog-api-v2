@@ -1,0 +1,59 @@
+[33mcommit f499ada0f6b58d4e8b8438953370ef1c3490d72d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Kyiro <josereyesiriarte@gmail.com>
+Date:   Sun Feb 23 23:59:54 2025 -0400
+
+    comentario en urls.py
+
+[33mcommit 97c12a3b44c51c8fcc4f977475f5eb9b9d040da5[m
+Author: Kyiro <josereyesiriarte@gmail.com>
+Date:   Sun Feb 23 23:59:28 2025 -0400
+
+    borre algo
+
+[33mcommit c2d5ee8ac58a3042f4ee23182a56a19fc3c63a2c[m
+Author: Kyiro <josereyesiriarte@gmail.com>
+Date:   Sat Feb 22 18:07:26 2025 -0400
+
+    requirements update
+
+[33mcommit 7004248ec78f10a2e7c811f684c9da73f2da5060[m[33m ([m[1;32mfeature/custom-permissions[m[33m)[m
+Author: Kyiro <josereyesiriarte@gmail.com>
+Date:   Sat Feb 22 18:02:35 2025 -0400
+
+    custom permissions done
+
+[33mcommit 5e9de3fc5e9aba48ec1bd75a25bf2e03eb06c935[m[33m ([m[1;32mfeature/permissions[m[33m)[m
+Author: Kyiro <josereyesiriarte@gmail.com>
+Date:   Sat Feb 22 17:47:10 2025 -0400
+
+    general permissions done
+
+[33mcommit 4e8c799346b733bc8f64c47115228cdb3b7ff941[m[33m ([m[1;32mfeature/cors-headers[m[33m)[m
+Author: Kyiro <josereyesiriarte@gmail.com>
+Date:   Sat Feb 22 17:21:18 2025 -0400
+
+    cors headers
+
+[33mcommit 206d6f925fc9dc9a70f0ffb87b36ba4a65fd8db6[m[33m ([m[1;32mfeature/new-user[m[33m)[m
+Author: Kyiro <josereyesiriarte@gmail.com>
+Date:   Sat Feb 22 17:06:53 2025 -0400
+
+    new user
+
+[33mcommit eb967c63e36095db4f0701aca94b990e67e016ba[m[33m ([m[1;32mfeature/post-model[m[33m)[m
+Author: Kyiro <josereyesiriarte@gmail.com>
+Date:   Sat Feb 22 16:30:51 2025 -0400
+
+    list post and detail done
+
+[33mcommit bb58dea087eb88875d18952063d33cc67a687e5d[m
+Author: Kyiro <josereyesiriarte@gmail.com>
+Date:   Sat Feb 22 15:40:02 2025 -0400
+
+    rest framework registrado :)
+
+[33mcommit 3facabf5c0b6c3ffab0f145ed5a2d86cc295c943[m
+Author: Kyiro <josereyesiriarte@gmail.com>
+Date:   Sat Feb 22 15:30:42 2025 -0400
+
+    first commit
