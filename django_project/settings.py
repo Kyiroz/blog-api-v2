@@ -40,7 +40,14 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'posts',
+    # 3rd party apps
     "corsheaders",
+    'django.contrib.sites',         #New
+    'allauth',                      #New
+    'allauth.account',              #New'
+    'allauth.socialaccount',        #New
+    'dj_rest_auth.registration',    #New
+    'rest_framework.authtoken',    #New
 ]
 
 REST_FRAMEWORK = {
@@ -57,8 +64,18 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'allauth.account.middleware.AccountMiddleware',             #New
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+# Django-allauth settings
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'    #New
+SITE_ID = 1                                                         #New
 
 CORS_ALLOWED_ORIGINS = [    #Aqui se especifica la URL de la aplicación cliente, que puede ser un dominio o un IP (lo hizo la ia :))
     "http://localhost:3000", 
